@@ -2,28 +2,28 @@ const dePinguins = [
     {
         categoria: "Geografia",
         pergunta: "Onde os pinguins vivem na natureza?",
-        resposta: "Quase todos vivem no Hemisfério Sul.",
+        resposta: "Quase todos vivem no Hemisferio Sul.",
         detalhe: "Nenhum pinguim vive no Polo Norte.",
         imagem: "https://unsplash.com"
     },
     {
         categoria: "Biologia",
-        pergunta: "Como os pinguins se mantêm secos?",
-        resposta: "Eles possuem penas curtas e impermeáveis.",
-        detalhe: "Uma glândula perto da cauda produz óleo protetor.",
+        pergunta: "Como os pinguins se mantem secos?",
+        resposta: "Eles possuem penas curtas e impermeaveis.",
+        detalhe: "Uma glandula perto da cauda produz oleo protetor.",
         imagem: "https://unsplash.com"
     },
     {
         categoria: "Habilidades",
         pergunta: "Pinguins conseguem voar pelo ar?",
-        resposta: "Não, mas eles voam sob a água!",
-        detalhe: "Suas asas funcionam como nadadeiras rígidas.",
+        resposta: "Nao, mas eles voam sob a agua!",
+        detalhe: "Suas asas funcionam como nadadeiras rigidas.",
         imagem: "https://unsplash.com"
     },
     {
-        categoria: "Espécies",
-        pergunta: "Qual é a maior espécie de pinguim?",
-        resposta: "É o Pinguim-Imperador.",
+        categoria: "Especies",
+        pergunta: "Qual e a maior especie de pinguim?",
+        resposta: "E o Pinguim-Imperador.",
         detalhe: "Chega a 1,20 metros de altura e 45 quilos.",
         imagem: "https://unsplash.com"
     }
