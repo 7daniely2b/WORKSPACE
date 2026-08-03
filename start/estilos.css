@@ -80,3 +80,12 @@ body {
     padding: 5px 10px;
     border-radius: 5px;
 }
+/* Configuração para a foto do pinguim */
+.cartao__imagem {
+    width: 100%;
+    height: 120px;
+    object-fit: cover; /* Faz a foto se adaptar sem distorcer */
+    border-radius: 8px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
