@@ -12,3 +12,4 @@ Não é necessário instalar nenhuma dependência ou rodar servidores locais.
 * **Renderização dinâmica:** Conteúdo injetado via JavaScript a partir de uma lista de objetos.
 * **Efeito tridimensional (flip):** Rotação interativa em 3D ao clicar no card usando a classe `.active`.
 * **Design responsivo:** Interface adaptável para celular, tablet e computador através do CSS Grid.
+* **Imagens Dinâmicas:** Fotos integradas via API do Unsplash direto nos cartões de perguntas.
