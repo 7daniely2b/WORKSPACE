@@ -1,56 +1,14 @@
-// Dados dos flashcards organizados em uma lista de objetos
-const cardsData = [
-    {
-        icon: "🌍",
-        question: "Onde os pinguins vivem na natureza?",
-        answer: "Quase todos vivem no Hemisferio Sul.",
-        detail: "Nenhum pinguim vive no Polo Norte. Habitam a Antartida, Nova Zelandia e Galapagos."
-    },
-    {
-        icon: "🪶",
-        question: "Como os pinguins se mantem secos?",
-        answer: "Eles possuem penas curtas e impermeaveis.",
-        detail: "Uma glandula perto da cauda produz oleo, que eles espalham pelo corpo todo."
-    },
-    {
-        icon: "🌊",
-        question: "Pinguins conseguem voar pelo ar?",
-        answer: "Nao, mas eles voam sob a agua!",
-        detail: "Suas asas evoluiram para nadadeiras rigidas. Algumas especies nadam a 35 km/h."
-    },
-    {
-        icon: "👑",
-        question: "Qual e a maior especie de pinguim?",
-        answer: "E o Pinguim-Imperador.",
-        detail: "Ele chega a ter 1,20 metros de altura e pode pesar ate 45 quilos."
-    }
-];
-
-// Seleciona o container HTML onde os cards serao colocados
-const container = document.getElementById('flashcards-container');
-
-// Renderiza cada card na tela de forma dinamica
-cardsData.forEach(data => {
-    const card = document.createElement('div');
-    card.className = 'flashcard';
-    
-    card.innerHTML = `
-        <div class="card-face front">
-            <div class="icon">${data.icon}</div>
-            <h3>${data.question}</h3>
-        </div>
-        <div class="card-face back">
-            <h2>Resposta!</h2>
-            <p>${data.answer}</p>
-            <div class="detail">${data.detail}</div>
-        </div>
-    `;
-
-    // Evento de clique para virar e desvirar a carta
-    card.addEventListener('click', () => {
-        card.classList.toggle('flipped');
-    });
-
-    // Adiciona o card finalizado ao container principal
-    container.appendChild(card);
-});
+# 🐧 Alura Flashcards: Pinguins
+Um aplicativo web simples e responsivo de flashcards interativos sobre pinguins, desenvolvido com tecnologias web fundamentais baseado no modelo didático da Alura. As cartas utilizam animações 3D puras via CSS para revelar as respostas.
+## 🚀 Tecnologias Utilizadas
+* **HTML5:** Estrutura e semântica da página.
+* **CSS3:** Estilização baseada em convenções BEM (`cartao__conteudo`), Grid Layout, variáveis e animações de rotação 3D (`perspective`, `transform-style`).
+* **JavaScript (ES6+):** Manipulação dinâmica do DOM para renderizar os cards automaticamente e alternar os estados de clique.
+## 🛠️ Como Executar o Projeto
+Não é necessário instalar nenhuma dependência ou rodar servidores locais.
+1. Faça o download ou clone este repositório.
+2. Abra o arquivo `index.html` diretamente em qualquer navegador web (Chrome, Firefox, Edge, Safari).
+## 📝 Funcionalidades
+* **Renderização dinâmica:** Conteúdo injetado via JavaScript a partir de uma lista de objetos.
+* **Efeito tridimensional (flip):** Rotação interativa em 3D ao clicar no card usando a classe `.active`.
+* **Design responsivo:** Interface adaptável para celular, tablet e computador através do CSS Grid.
